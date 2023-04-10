@@ -2,7 +2,7 @@ import React from 'react';
 
 const BannerSection = () => {
     return (
-        <div className='grid grid-cols-2 justify-between mt-10 '>
+        <div className='grid grid-cols-1 md:grid-cols-2 justify-between mt-10 items-center '>
             <div className='align-middle'>
                 <h2 className='text-5xl font-bold leading-tight tracking-wider'>One Step <br /> <span>Closer To Your </span> <br />
                     <span className='text-indigo-500'>Dream Job</span> </h2>
