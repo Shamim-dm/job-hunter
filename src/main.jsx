@@ -14,11 +14,13 @@ import Blog from './components/Blog/Blog';
 import Main from './components/Layout/Main';
 import Jobdatails from './components/JobDatails/JobDatails';
 import ApplyJob from './components/ApplyJob/ApplyJob';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Main></Main>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
@@ -42,7 +44,7 @@ const router = createBrowserRouter([
       {
         path: 'appliedJob',
         element: <AppliedJob></AppliedJob>,
-        loader: ()=> fetch('fakeData.json')
+        loader: () => fetch('fakeData.json')
 
       },
       {
