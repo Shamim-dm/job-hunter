@@ -41,7 +41,7 @@ const Header = () => {
         <li tabIndex={0}>
         <Link className='' to='/statistics'>Statistics</Link>  
         </li>
-        <li> <Link className='' to='/applied-job'>Applied Jobs</Link></li>
+        <li> <Link className='' to='/appliedJob'>Applied Jobs</Link></li>
         <li><Link className='' to='/blog'>Blogs</Link></li>
       </ul>
     </div>
@@ -53,12 +53,12 @@ const Header = () => {
       <li tabIndex={0}>
       <Link className='' to='/statistics'>Statistics</Link>  
       </li>
-      <li> <Link className='' to='/applied-job'>Applied Jobs</Link></li>
+      <li> <Link className='' to='/appliedJob'>Applied Jobs</Link></li>
       <li><Link className='' to='/blog'>Blogs</Link></li>
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Start Applying</a>
+    <button className="btn-primary">Start Applying</button>
   </div>
 </div>
 

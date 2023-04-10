@@ -36,4 +36,4 @@ const JobCategory = () => {
     );
 };
 
-export default JobCategory;
+export default JobCategory; 

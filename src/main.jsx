@@ -12,27 +12,47 @@ import Statistics from './components/Statistices/Statistics';
 import AppliedJob from './components/Applied-Jobs/AppliedJob';
 import Blog from './components/Blog/Blog';
 import Main from './components/Layout/Main';
+import Jobdatails from './components/JobDatails/JobDatails';
+import ApplyJob from './components/ApplyJob/ApplyJob';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Main></Main> ,
-    children:[
+    element: <Main></Main>,
+    children: [
       {
-        path: 'home',
+        path: '/',
         element: <Home></Home>,
         loader: () => fetch('fakeData.json')
+      },
+
+      {
+        path: 'home/:id',
+        element: <Jobdatails></Jobdatails>,
+        loader: ({ params }) => fetch('/fakeData.json')
+
+        // loader: ({params}) => fetch(`fakeData.json/${params.homeId}`)
+
       },
       {
         path: 'statistics',
         element: <Statistics></Statistics>
+
       },
       {
-        path: 'applied-job',
-        element: <AppliedJob></AppliedJob>
+        path: 'appliedJob',
+        element: <AppliedJob></AppliedJob>,
+        loader: ()=> fetch('fakeData.json')
+
       },
       {
-        path:'blog',
+        path: 'home/:id',
+        element: <ApplyJob></ApplyJob>,
+        loader: ({ params }) => fetch('/fakeData.json')
+
+      },
+      {
+        path: 'blog',
         element: <Blog></Blog>
       }
     ]
