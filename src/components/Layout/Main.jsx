@@ -10,6 +10,7 @@ const Main = () => {
             {/* <div className=' w-10/12 lg:w-8/12 mx-auto mb-11'> */}
             <Header></Header>
             <Outlet></Outlet>
+           
             <App></App>
             
 
