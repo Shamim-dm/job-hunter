@@ -20,7 +20,7 @@ const Products = ({data}) => {
             <p className='text-slate-400 my-1'>{address}</p>
             </div>
             <p className='text-slate-400 mb-5'>Salary: {salary}</p>
-            <Link to={`home/${id}`} className='border-2 px-3 py-2 rounded-md bg-indigo-400 text-white ' >Datails</Link>
+            <Link to={`/${id}`} className='border-2 px-3 py-2 rounded-md bg-indigo-400 text-white ' >Datails</Link>
 
            {/* <Link to='/job-datails'> <button cart={cart} onClick={()=> addToCart(data)} className='btn-primary mt-4'>datails</button></Link> */}
        
