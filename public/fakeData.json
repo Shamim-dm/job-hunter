@@ -1,6 +1,7 @@
 [
     {
       "id": "1",
+      "categorieso": "Onsite",
       "picture": "./assets/Logo/google-1-1 1.png",
       "name": "Technical Database Engineer",
       "company": "Google LLC",
@@ -20,47 +21,49 @@
 
     {
       "id": "2",
+      "categoriesr": "remote",
       "picture": "./assets/Logo/netflix-4 1.png",
       "name": "Senior Product Design",
       "company": "Netlifix",
       "email": "ellavalencia@velity.com",
       "phone": "+1 (928) 572-3117",
       "address": "Sylhet, Bangladesh",
-      "salary": "100k-150k",
+      "salary": "140k-200k",
       "category": ["Onsite", "Full Time" ], 
       "jobDscription": " A UIUX (User Interface/User Exprience) Designer is respinsibile for Designing and creating engaging and interfaces for software and web applications. This includes Designing the layout , visul Design and interctivity of the interface.",
       "jobReponsibilty": "Job Responsibility: Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members." ,
       "educational": "Bachelor degree to complete any reputational university." ,
-      "Exprience": "2-3 Years in this field"
+      "Exprience": "3-4 Years in this field"
     },
-
 
     {
       "id": "3",
-      "picture": "./assets/Logo/tesla-9 1.png",
-      "name": "SoftWare Engineer",
-      "company": "Tesla",
-      "email": "houseday@gleamink.com",
-      "phone": "+1 (848) 514-3434",
-      "address": "Chottrogram, Bangladesh",
-      "salary": "100k-150k",
-      "category": ["Remote", "Full Time" ],
+      "categoriesr": "remote",
+      "picture": "./assets/All Images/Group 10021.png",
+      "name": "The Airbnb Effect On Housing And Rent",
+      "company": "AirBnb",
+      "email": "jodiclark@conferia.com",
+      "phone": "+1 (850) 483-3475",
+      "address": "Cumilla, Bangladesh",
+      "salary": "106k-133k",
+      "category": ["remote", "Full Time" ],
       "jobDscription": " A UIUX (User Interface/User Exprience) Designer is respinsibile for Designing and creating engaging and interfaces for software and web applications. This includes Designing the layout , visul Design and interctivity of the interface.",
       "jobReponsibilty": "Job Responsibility: Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members." ,
       "educational": "Bachelor degree to complete any reputational university." ,
-      "Exprience": "2-3 Years in this field"
+      "Exprience": "1-3 Years in this field"
     },
 
-
+    
     {
       "id": "4",
-      "picture": "./assets/Logo/014.webp",
-      "name": "Iphone",
-      "company": "Apple",
-      "email": "higginsherring@zenolux.com",
-      "phone": "+1 (890) 556-3482",
-      "address": "Rangpur, Bangladesh",
-      "salary": "100k-150k",
+      "categoriesr": "remote",
+      "picture": "./assets/All Images/8867.webp",
+      "name": "Microsoft Trademark and Brand Guidelines",
+      "company": "Microsoft",
+      "email": "jodiclark@conferia.com",
+      "phone": "+1 (850) 483-3475",
+      "address": "Rasshahi, Bangladesh",
+      "salary": "101k-126k",
       "category": ["Onsite", "Full Time" ],
       "jobDscription": " A UIUX (User Interface/User Exprience) Designer is respinsibile for Designing and creating engaging and interfaces for software and web applications. This includes Designing the layout , visul Design and interctivity of the interface.",
       "jobReponsibilty": "Job Responsibility: Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members." ,
@@ -71,36 +74,77 @@
 
     {
       "id": "5",
+      "categorieso": "Onsite",
+      "picture": "./assets/Logo/tesla-9 1.png",
+      "name": "SoftWare Engineer",
+      "company": "Tesla",
+      "email": "houseday@gleamink.com",
+      "phone": "+1 (848) 514-3434",
+      "address": "Chottrogram, Bangladesh",
+      "salary": "130k-140k",
+      "category": ["Remote", "Full Time" ],
+      "jobDscription": " A UIUX (User Interface/User Exprience) Designer is respinsibile for Designing and creating engaging and interfaces for software and web applications. This includes Designing the layout , visul Design and interctivity of the interface.",
+      "jobReponsibilty": "Job Responsibility: Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members." ,
+      "educational": "Bachelor degree to complete any reputational university." ,
+      "Exprience": "2-4 Years in this field"
+    },
+
+
+    {
+      "id": "6",
+      "categoriesr": "remote",
+      "picture": "./assets/Logo/014.webp",
+      "name": "Iphone",
+      "company": "Apple",
+      "email": "higginsherring@zenolux.com",
+      "phone": "+1 (890) 556-3482",
+      "address": "Rangpur, Bangladesh",
+      "salary": "133k-170k",
+      "category": ["Onsite", "Full Time" ],
+      "jobDscription": " A UIUX (User Interface/User Exprience) Designer is respinsibile for Designing and creating engaging and interfaces for software and web applications. This includes Designing the layout , visul Design and interctivity of the interface.",
+      "jobReponsibilty": "Job Responsibility: Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members." ,
+      "educational": "Bachelor degree to complete any reputational university." ,
+      "Exprience": "2-5 Years in this field"
+    },
+
+
+    {
+      "id": "7",
+      "categorieso": "Onsite",
       "picture": "./assets/Logo/images.png",
       "name": "Nasa",
       "company": "Nasa",
       "email": "kathleenboyd@luxuria.com",
       "phone": "+1 (813) 537-2601",
       "address": "Barisal, Bangladesh",
-      "salary": "100k-150k",
+      "salary": "130k-177k",
       "category": ["Remote", "Full Time" ],
       "jobDscription": " A UIUX (User Interface/User Exprience) Designer is respinsibile for Designing and creating engaging and interfaces for software and web applications. This includes Designing the layout , visul Design and interctivity of the interface.",
       "jobReponsibilty": "Job Responsibility: Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members." ,
       "educational": "Bachelor degree to complete any reputational university." ,
-      "Exprience": "2-3 Years in this field"
+      "Exprience": "1-3 Years in this field"
     },
 
 
     {
-      "id": "6",
+      "id": "8",
+      "categoriesr": "remote",
       "picture": "./assets/Logo/openai-chatgpt-4038641.logowik.com.webp",
       "name": "Chatgpt",
       "company": "OpenAI",
       "email": "jodiclark@conferia.com",
       "phone": "+1 (850) 483-3475",
       "address": "Kulna, Bangladesh",
-      "salary": "100k-150k",
+      "salary": "111k-133k",
       "category": ["Onsite", "Full Time" ],
       "jobDscription": " A UIUX (User Interface/User Exprience) Designer is respinsibile for Designing and creating engaging and interfaces for software and web applications. This includes Designing the layout , visul Design and interctivity of the interface.",
       "jobReponsibilty": "Job Responsibility: Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members." ,
       "educational": "Bachelor degree to complete any reputational university." ,
-      "Exprience": "2-3 Years in this field"
+      "Exprience": "3-4 Years in this field"
     }
+
+    
+   
     
    
   ]

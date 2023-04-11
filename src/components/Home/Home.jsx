@@ -59,7 +59,7 @@ const Home = () => {
                 <p className='text-center text-slate-400 mt-3 mb-8'>Explore thousands of job opportunities with all information you need. Its your future</p>
                 <div className='grid md:grid-cols-2 w-10/12 lg:w-8/12 mx-auto mb-11 gap-4 '>
                     {
-                        fakeData.slice(0, showAll ? 6 : 4).map(data => <Products data={data} key={data.id} ></Products>)
+                        fakeData.slice(0, showAll ? 8 : 4).map(data => <Products data={data} key={data.id} ></Products>)
                     }
                 </div>
                 <div className='mx-auto text-center'>

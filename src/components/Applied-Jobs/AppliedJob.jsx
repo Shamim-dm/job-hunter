@@ -5,67 +5,101 @@ import Footer from '../Footer/Footer';
 import Job from '../job/Job';
 
 const AppliedJob = () => {
-   
-    const [jobs, setJob] = useState([]) 
+
+    const [jobs, setJob] = useState([])
     const [cart, setCart] = useState([])
-    console.log(jobs)
     console.log(cart)
+    console.log(jobs.name)
 
 
-useEffect( ()=> {
-    fetch('/fakeData.json')
-    .then(res => res.json())
-    .then(data => setJob(data))
+    useEffect(() => {
+        fetch('/fakeData.json')
+            .then(res => res.json())
+            .then(data => setJob(data))
 
-} ,[])
+    }, [])
 
 
-useEffect( ()=>{
+    useEffect(() => {
 
-    const storeCart = getShoppingCart()
-    const saveCart =[];
+        const storeCart = getShoppingCart()
+        const saveCart = [];
 
-    for (const id in storeCart ){
-        const addJob = jobs.find(job => job.id === id);
+        for (const id in storeCart) {
+            const addJob = jobs.find(job => job.id === id);
 
-        if(addJob){
-            const quantity = storeCart[id];
-            addJob.quantity = quantity
-            saveCart.push(addJob)
-        // console.log(addedProduct)
+            if (addJob) {
+                const quantity = storeCart[id];
+                addJob.quantity = quantity
+                saveCart.push(addJob)
+                // console.log(addedProduct)
+            }
         }
-     
+        setCart(saveCart)
 
-        // if(addedajob){
-        //     const quantity = storeCart[id];
-        //     addedajob.qu
-        // }
-    }
-    setCart(saveCart)
+    }, [jobs])
 
 
 
 
-} ,[jobs])
+    
+    // const [isFilter, setIsFilter] = (false)
 
 
+
+    // const handleChange = ()=>{
+    //     setIsFilter(true)
+
+    // }
+
+
+    // const remotes = cart.map(remote => { return remote })
+
+    // console.log(remotes.categorieso)
+
+    // const remote = (id) => {
+    //     console.log(id)
+
+
+
+
+    //     const datas = remotes.filter(data => data.categorieso == id)
+
+
+
+
+    //     return datas
+
+    // }
+
+    // console.log(datas)
 
 
 
 
     return (
         <div>
-            
+            <div className='w-10/12 lg:w-8/12 mx-auto'>
 
-            {
-                cart.map( product => <Job product={product} key={product.id}></Job>)
-            }
-          <div className='bg-zinc-900 '>
-          <Footer></Footer>
-          </div>
+                <h3 className='text-center text-4xl font-bold mb-12 text-sky-400'>Applied Job</h3>
+
+                {/* <button onClick={() => handleChange(remotes.categorieso)}>Remote</button> */}
+                {/* <select className="select select-bordered w-full max-w-xs  ">
+                    <option disabled selected>Filter</option>
+                    <option >Remote</option>
+                    <option>Onsite</option>
+                </select> */}
 
 
+                {
+                    cart.map(product => <Job product={product} key={product.id}></Job>)
+                }
 
+
+            </div>
+            <div className='bg-zinc-900 '>
+                <Footer></Footer>
+            </div>
         </div>
     );
 };

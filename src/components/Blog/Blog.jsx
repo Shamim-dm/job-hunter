@@ -5,6 +5,7 @@ const Blog = () => {
     return (
         <div>
             <div className='w-10/12 lg:w-8/12 mx-auto mb-12'>
+                <h2 className='text-4xl font-bold text-center text-sky-400 mb-12'>Questions</h2>
                 <div className='rounded-md drop-shadow-2xl bg-slate-50 border-2 p-6'>
                     <h2> <span className='font-bold text-sky-500'>Question-1: </span> Why should Context API use? </h2>
                     <hr />

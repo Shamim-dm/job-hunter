@@ -11,7 +11,7 @@ const BannerSection = () => {
                 <button class="btn-primary mt-10">Get Start</button>
             </div>
             <div className=''>
-                <img className='' src='../../../public/assets/All Images/P3OLGJ1 copy 1.png' />
+                <img className='' src='/P3OLGJ1 copy 1.png' />
             </div>
 
         </div>

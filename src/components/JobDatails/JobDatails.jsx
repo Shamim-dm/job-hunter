@@ -12,11 +12,12 @@ const Jobdatails = () => {
     let { id } = useParams()
     const job = fakeDataAll.find(jobs => jobs.id === id)
 
-    
+
     const applaidJob = (id) => {
+      
         toast.success('Your Job is Applaied!')
         addToDb(id)
-        // localStorage.setItem('id')
+      
     }
 
     // console.log(fakeDataAll, )
@@ -66,9 +67,9 @@ const Jobdatails = () => {
 
 
             </div>
-            <div className=' w-5/12  lg:ml-auto md:mx-auto text-center mt-2 bg-indigo-600 border-2  p-2 rounded-md text-white '>
-                {/* <Link to= >Apply Now</Link> */}
-                <button onClick={() => applaidJob(job.id)} >Apply Now</button>
+            <div className=' text-center'>
+                
+                <button  onClick={() => applaidJob(job.id)} className="w-5/12  lg:ml-auto md:mx-auto text-center mt-2 bg-indigo-600 border-2   p-2 rounded-md text-white " >Apply Now</button>
             </div>
             <div className='bg-zinc-900 '>
                 <Footer></Footer>
