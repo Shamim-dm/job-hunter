@@ -15,8 +15,8 @@ const Products = ({data}) => {
             <p className='text-slate-400 my-3'>{company}</p>
             <button className='border-2 text-blue-400'>{category[0]}</button> <button className='text-blue-400'>{category[1]}</button>
            
-            <div className='flex mt-5'>
-            <MapPinIcon className="h-6 w-6 text-blue-500" />
+            <div className='flex items-center gap-1 mt-5'>
+            <MapPinIcon className="h-5 w-5 text-blue-500" />
             <p className='text-slate-400 my-1'>{address}</p>
             </div>
             <p className='text-slate-400 mb-5'>Salary: {salary}</p>

@@ -45,7 +45,7 @@ const Header = () => {
         <li><ActiveLink className='' to='/blog'>Blogs</ActiveLink></li>
       </ul>
     </div>
-    <a className=" font-bold normal-case text-3xl">CareerHub</a>
+    <a className=" font-bold normal-case  sm:text-3xl">JobHub</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -58,7 +58,7 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <button className="btn-primary">Start Applying</button>
+    <button className="btn-primary text-xs">Start Applying</button>
   </div>
 </div>
 

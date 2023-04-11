@@ -98,10 +98,10 @@ const Statistics = () => {
         [setActiveIndex]
     );
     return (
-        <div>
+        <div className=' '>
             <p className='text-center mt-10 pt-10 text-4xl font-semibold text-[#8884D8]'>Assignment Mark Statistics</p>
             
-            <PieChart width={700} height={500} className='mx-auto pl-8'>
+            <PieChart width={700}  height={700} className='mx-auto pl-8 '>
                 <Pie
                     activeIndex={activeIndex}
                     activeShape={renderActiveShape}
