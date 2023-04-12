@@ -6,10 +6,11 @@ const ErrorPage = () => {
   return (
     <section className='flex items-center h-screen p-16 bg-gray-100 text-gray-900'>
       <div className='container flex flex-col items-center justify-center px-5 mx-auto my-8'>
+       <img className='h-48' src='https://png.pngtree.com/png-clipart/20220614/original/pngtree-tourist-with-red-flag-icon-png-image_8024702.png' />
         <svg
           xmlns='http://www.w3.org/2000/svg'
           viewBox='0 0 512 512'
-          className='w-40 h-40 text-gray-600'
+          className='w-40 h-40 text-red-600'
         >
           <path
             fill='currentColor'
@@ -32,8 +33,8 @@ const ErrorPage = () => {
           ></polygon>
         </svg>
         <div className='max-w-md text-center'>
-          <h2 className='mb-8 font-extrabold text-9xl text-gray-600'>
-            <span className='sr-only'>Error</span> {status || 404}
+          <h2 className='mb-8 font-extrabold text-9xl text-red-600'>
+            <span className='sr-only'>Error</span><span className='text-red-500'> {status || 404}</span>
           </h2>
           <p className='text-2xl font-semibold md:text-3xl mb-8'>
             {error?.message}

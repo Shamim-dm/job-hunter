@@ -1,7 +1,8 @@
 [
     {
       "id": "1",
-      "categorieso": "Onsite",
+      "categories":  "Remote" ,
+    
       "picture": "./assets/Logo/google-1-1 1.png",
       "name": "Technical Database Engineer",
       "company": "Google LLC",
@@ -21,7 +22,8 @@
 
     {
       "id": "2",
-      "categoriesr": "remote",
+      
+      "categories": "onsite",
       "picture": "./assets/Logo/netflix-4 1.png",
       "name": "Senior Product Design",
       "company": "Netlifix",
@@ -38,7 +40,8 @@
 
     {
       "id": "3",
-      "categoriesr": "remote",
+      "categories": "Remote" ,
+      
       "picture": "./assets/All Images/Group 10021.png",
       "name": "The Airbnb Effect On Housing And Rent",
       "company": "AirBnb",
@@ -46,7 +49,7 @@
       "phone": "+1 (850) 483-3475",
       "address": "Cumilla, Bangladesh",
       "salary": "106k-133k",
-      "category": ["remote", "Full Time" ],
+      "category": ["Remote", "Full Time" ],
       "jobDscription": " A UIUX (User Interface/User Exprience) Designer is respinsibile for Designing and creating engaging and interfaces for software and web applications. This includes Designing the layout , visul Design and interctivity of the interface.",
       "jobReponsibilty": "Job Responsibility: Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members." ,
       "educational": "Bachelor degree to complete any reputational university." ,
@@ -56,7 +59,9 @@
     
     {
       "id": "4",
-      "categoriesr": "remote",
+      
+    
+      "categories": "onsite",
       "picture": "./assets/All Images/8867.webp",
       "name": "Microsoft Trademark and Brand Guidelines",
       "company": "Microsoft",
@@ -74,7 +79,8 @@
 
     {
       "id": "5",
-      "categorieso": "Onsite",
+      "categories": "Remote" ,
+      
       "picture": "./assets/Logo/tesla-9 1.png",
       "name": "SoftWare Engineer",
       "company": "Tesla",
@@ -92,7 +98,8 @@
 
     {
       "id": "6",
-      "categoriesr": "remote",
+     
+      "categories": "onsite",
       "picture": "./assets/Logo/014.webp",
       "name": "Iphone",
       "company": "Apple",
@@ -110,7 +117,8 @@
 
     {
       "id": "7",
-      "categorieso": "Onsite",
+      "categories": "Remote" ,
+   
       "picture": "./assets/Logo/images.png",
       "name": "Nasa",
       "company": "Nasa",
@@ -128,7 +136,8 @@
 
     {
       "id": "8",
-      "categoriesr": "remote",
+     
+      "categories": "onsite",
       "picture": "./assets/Logo/openai-chatgpt-4038641.logowik.com.webp",
       "name": "Chatgpt",
       "company": "OpenAI",

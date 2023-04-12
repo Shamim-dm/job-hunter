@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
-import { getShoppingCart } from '../../utilities/fakedb';
+import { getJobCart } from '../../utilities/fakedb';
 import Footer from '../Footer/Footer';
 import Job from '../job/Job';
 
@@ -8,8 +8,36 @@ const AppliedJob = () => {
 
     const [jobs, setJob] = useState([])
     const [cart, setCart] = useState([])
-    console.log(cart)
-    console.log(jobs.name)
+
+
+//    const remoteData = cart.map(function(elem){
+//     return elem;
+        
+//     })
+//     console.log(remoteData)
+
+   
+
+    const onsite = (onsite) => {
+
+          onsite.storeCart = getJobCart(id)
+            const sort = onsite.filter(pd => pd.categories == 'onsite' )
+            console.log(sort)
+            setCart(sort)
+         
+
+    }
+    const remote = (remote) => {
+
+       remote.storeCart = getJobCart(id)
+           const sort = remote.filter(pds => pds.categories == 'Remote')
+           console.log(sort)
+           setCart(sort)
+        
+
+      
+   }
+
 
 
     useEffect(() => {
@@ -21,8 +49,7 @@ const AppliedJob = () => {
 
 
     useEffect(() => {
-
-        const storeCart = getShoppingCart()
+        const storeCart = getJobCart()
         const saveCart = [];
 
         for (const id in storeCart) {
@@ -39,10 +66,27 @@ const AppliedJob = () => {
 
     }, [jobs])
 
+// const carter = cart.filter(pd => {return (pd)} )
+// console.log(carter)
 
 
 
-    
+// const remote = (carts)=>{
+
+//     let data = []
+//     console.log(data)
+//     for ( const name of carts){
+        
+//     return name
+        
+//         // const remoteData = cart.filter(product => product.id === name.id)
+//         // console.log(name)
+//         // console.log(remoteData)
+//     }
+//     // console.log(carts)
+// }
+// console.log()
+
     // const [isFilter, setIsFilter] = (false)
 
 
@@ -89,11 +133,14 @@ const AppliedJob = () => {
                     <option >Remote</option>
                     <option>Onsite</option>
                 </select> */}
+              <button onClick={() => onsite(cart)}>Onsite</button>
+              <button onClick={() => remote(cart)}>Remote</button>
 
 
                 {
                     cart.map(product => <Job product={product} key={product.id}></Job>)
-                }
+              
+              }
 
 
             </div>

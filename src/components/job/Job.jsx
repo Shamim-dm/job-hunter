@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
-import {MapPinIcon } from '@heroicons/react/24/solid'
+import { MapPinIcon } from '@heroicons/react/24/solid'
+import { Link } from 'react-router-dom';
 
 const Job = ({ product }) => {
 
@@ -9,7 +10,7 @@ const Job = ({ product }) => {
     return (
         <div>
             <div className=''>
-               
+
 
                 <div className='border-2 mb-8 rounded-md px-4 py-3 md:flex gap-5 items-center leading-9 '>
 
@@ -24,18 +25,20 @@ const Job = ({ product }) => {
                             <button>{category[0]}</button> <button>{category[1]}</button>
                         </span>
                         <span className='flex items-center'>
-                        <MapPinIcon className="h-5 w-5 text-blue-500" />
-                        <p className='text-slate-400'>{address}</p>
+                            <MapPinIcon className="h-5 w-5 text-blue-500" />
+                            <p className='text-slate-400'>{address}</p>
                         </span>
                     </div>
 
                     <div className=''>
-                        <button className='btn-primary'>View Datails</button>
+                        <Link >
+                            <button className='btn-primary'>View Datails</button>
+                        </Link>
                     </div>
 
                 </div>
             </div>
-            
+
         </div>
     );
 };
