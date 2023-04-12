@@ -4,31 +4,6 @@ import ActiveLink from '../ActiveLink/ActiveLink';
 
 const Header = () => {
     return (
-      
-        // <div className='flex flex-cols-3 justify-between items-center'>
-        //     <div>
-        //         <h2 className='text-3xl font-bold'>CareerHub</h2>
-        //     </div>
-        //     <div className=''>
-        //     <Link className='' to='/home'>Home</Link>
-        //     <Link className='ml-4' to='/statistics'>Statistics</Link>
-        //     <Link className='ml-4' to='/applied-job'>Applied Jobs</Link>
-        //     <Link className='ml-4' to='/blog'>Blogs</Link>
-        //     </div>
-        //     <div>
-        //         <button className='btn btn-active btn-primary'>Start Applying</button>
-        //     </div>
-            
-        // </div>
-
-
-
-
-
-
-
-
-
 
 <div className="navbar bg-base-100  w-10/12 lg:w-8/12 mx-auto mb-11 ">
   <div className="navbar-start">
@@ -58,19 +33,9 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <button className="btn-primary text-xs">Start Applying</button>
+    <button  className="btn-primary text-xs">Start Applying</button>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-
 
 
     );

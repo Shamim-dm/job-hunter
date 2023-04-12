@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react';
-import { PieChart, Pie, Sector, Tooltip,ResponsiveContainer } from "recharts";
+import { PieChart, Pie, Sector, Tooltip, ResponsiveContainer } from "recharts";
 import Footer from '../Footer/Footer';
 
 const data = [
@@ -101,8 +101,8 @@ const Statistics = () => {
     return (
         <div className=''>
             <p className='text-center mt-10 pt-10 text-4xl font-semibold text-[#8884D8]'>Assignment Mark Statistics</p>
-            
-            <PieChart width={500}  height={500} className='mx-auto pl-8 '>
+
+            <PieChart width={500} height={500} className='mx-auto pl-8 '>
                 <Pie
                     activeIndex={activeIndex}
                     activeShape={renderActiveShape}
@@ -117,9 +117,9 @@ const Statistics = () => {
                 />
                 <Tooltip></Tooltip>
             </PieChart>
-           <div className='bg-zinc-900 '>
-           <Footer></Footer>
-           </div>
+            <div className='bg-zinc-900 '>
+                <Footer></Footer>
+            </div>
         </div>
     );
 };

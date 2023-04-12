@@ -6,7 +6,7 @@ const ErrorPage = () => {
   return (
     <section className='flex items-center h-screen p-16 bg-gray-100 text-gray-900'>
       <div className='container flex flex-col items-center justify-center px-5 mx-auto my-8'>
-       <img className='h-48' src='https://png.pngtree.com/png-clipart/20220614/original/pngtree-tourist-with-red-flag-icon-png-image_8024702.png' />
+       {/* <img className='' src='https://drudesk.com/sites/default/files/styles/blog_page_header_961x459/public/2018-02/404-error-page-not-found.jpg?itok=PC4OO1na' /> */}
         <svg
           xmlns='http://www.w3.org/2000/svg'
           viewBox='0 0 512 512'
@@ -33,7 +33,8 @@ const ErrorPage = () => {
           ></polygon>
         </svg>
         <div className='max-w-md text-center'>
-          <h2 className='mb-8 font-extrabold text-9xl text-red-600'>
+          <h2 className='text-9xl text-bold mb-4 text-sky-900'>OppoS!!</h2>
+          <h2 className='mb-8 font-extrabold text-9xl '>
             <span className='sr-only'>Error</span><span className='text-red-500'> {status || 404}</span>
           </h2>
           <p className='text-2xl font-semibold md:text-3xl mb-8'>

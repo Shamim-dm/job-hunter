@@ -10,8 +10,6 @@ const Job = ({ product }) => {
     return (
         <div>
             <div className=''>
-
-
                 <div className='border-2 mb-8 rounded-md px-4 py-3 md:flex gap-5 items-center leading-9 '>
 
                     <div className=' w-48  rounded-md p-2 '>
@@ -31,8 +29,8 @@ const Job = ({ product }) => {
                     </div>
 
                     <div className=''>
-                        <Link >
-                            <button className='btn-primary'>View Datails</button>
+                        <Link to={`/${product.id}`}>
+                            <button className='btn-primary text-sm'>View Datails</button>
                         </Link>
                     </div>
 
